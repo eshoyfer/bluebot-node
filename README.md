@@ -46,7 +46,7 @@ module.exports = function() {
 			var roll = (Math.floor(Math.random() * 100) + 1);
 			api.sendMessage(message.senderName + " rolled " + roll, message.threadID);
 			if (roll == 100) {
-				api.sendMessage("H-H-HOLY SHIT!", message.threadID);		
+				api.sendMessage("GODLIKE", message.threadID);		
 			}
 		}
 	);
